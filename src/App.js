@@ -6,8 +6,7 @@ function App() {
   return (
     // BEM
     <div className="app">
-    <h1> Welcome to Spotify Clone ! 🚀😃</h1>
-    
+        
     {/* Spotify Logo */}
     {/* Login with spotify button*/}
     <Login />

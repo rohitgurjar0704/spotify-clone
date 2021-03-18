@@ -4,11 +4,11 @@ function Login() {
     return (
         //BEM
         <div className="login">
-            <h1>I am the login page</h1>
-            <img src="https://digital.hbs.edu/platform-digit/wp-content/uploads/sites/2/2020/04/spotify-logo-1920x1080-2-1100x200.jpg" alt=""/>          
+        
+            <img src="https://1000logos.net/wp-content/uploads/2017/08/Spotify-symbol.jpg" alt=""/>          
             {/* Spotify Logo */}
             {/* Login using Spotify button */}
-        <button>Login With Spotify</button>
+        <a>LOGIN WITH SPOTIFY</a>
         </div>
     )
 }
