@@ -1,10 +1,17 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import Login from './Login';
 
 function App() {
   return (
-    <div className="App">
-    <h1> Welcome to Spotify Clone 🚀😃</h1>
+    // BEM
+    <div className="app">
+    <h1> Welcome to Spotify Clone ! 🚀😃</h1>
+    
+    {/* Spotify Logo */}
+    {/* Login with spotify button*/}
+    <Login />
+
     </div>
   );
 }
