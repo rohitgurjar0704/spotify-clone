@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Login.css";
+import { loginUrl } from './spotify';
 function Login() {
     return (
         //BEM
@@ -8,9 +9,9 @@ function Login() {
             <img src="https://1000logos.net/wp-content/uploads/2017/08/Spotify-symbol.jpg" alt=""/>          
             {/* Spotify Logo */}
             {/* Login using Spotify button */}
-        <a>LOGIN WITH SPOTIFY</a>
+        <a href={loginUrl}>LOGIN WITH SPOTIFY</a>
         </div>
     )
 }
 
-export default Login
+export default Login;
