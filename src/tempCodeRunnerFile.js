@@ -1,1 +1,0 @@
-")}&responce_type=token&show_dialog=true`; 
